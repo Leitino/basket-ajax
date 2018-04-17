@@ -12,7 +12,7 @@ $(function() {
         console.log(listaGiocatori)
         for (var i = 0; i < listaGiocatori.length; i++) {
           for (var i = 0; i < giocatori.length; i++) {
-            console.log(giocatori[i].playerCode)
+            $('.cod-giocatori').append('<div class="cod-giocatore">'+giocatori[i].playerCode+'</div>')
           }
 
         }
