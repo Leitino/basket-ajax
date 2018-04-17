@@ -10,8 +10,10 @@ $(function() {
         var giocatori = data.response
         listaGiocatori.push(giocatori)
         console.log(listaGiocatori)
-        for (var i = 0; i < giocatori.length; i++) {
-          console.log(giocatori[i])
+        for (var i = 0; i < listaGiocatori.length; i++) {
+          for (var i = 0; i < giocatori.length; i++) {
+            console.log(giocatori[i].playerCode)
+          }
 
         }
       }
