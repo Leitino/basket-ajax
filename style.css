@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.num-giocatori{
+  text-align: center;
+  font-size: 1.5em;
+}
+.margine{
+  width: 80%;
+  margin: auto;
+}
+.cod-giocatori{
+  float: left;
+  width: 25%;
+  height: 400px;
+  background-color: #CFE2F3;
+}
+.cod-giocatore{
+  width: 90%;
+  height: 50px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statistiche{
+  width: 65%;
+  height: 400px;
+  background-color: #CFE2F3;
+  float: left;
+  margin-left: 10%;
+}
+.statistiche-giocatore-titolo{
+  text-align: center;
+}
