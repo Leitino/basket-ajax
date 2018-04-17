@@ -32,6 +32,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cod-giocatore:hover{
+  background-color: #161649;
+  color:white;
 }
 .statistiche{
   width: 65%;
